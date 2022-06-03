@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="code.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple website</title>
+</head>
+
+<body>
+    <div class="nav">
+        <nav>
+            <a href="#" class="span">Pulse</a>
+            <a href="login.html">Login</a>
+            <a href="#">Registration</a>
+            <a href="contact.html">Contact</a>
+            <a href="index.html">About Me</a>
+        </nav>
+    </div>
+    <div class="contact-con">
+        <div class="contact">
+            <p>Registration</p>
+            <form action="" class="contact-form" autocapitalize="off">
+                <div class="input-control input-2">
+                    <label for="first">First Name</label>
+                    <input name="first" type="text" required placeholder="First Name">
+    
+    
+                </div>
+                <div class="input-control input-2">
+                    
+                
+                    <label for="last">Last Name</label>
+                    <input type="text" name="last" required placeholder="Last  Name">
+                
+                </div>
+                <div class="input-control input-2">
+                <label for="email">Email:</label>
+                    <input id="email" type="email" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">
+                
+                </div>
+                <div class="input-control input-2">
+                <label for="phone">Phone No.</label>
+                    <input type="tel" id="phone" name="phone"  placeholder="Phone No. with country code eg '+234'" required minlength="10" pattern="[+]{1}[1-9]{1,3}[7-9]{1}[0-9]{9}">
+                
+                </div>
+                <div class="input-control input-2">
+                <label for="gender">Choose your Gender</label>
+                    <select name="gender" id="gender" required>
+                        <option value="" >SELECT</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                
+                </div>
+                <div class="input-control input-2">
+                    <label for="country">Country</label>
+                    <input type="text" name="country" id="country"
+                    required placeholder="Country" pattern="[a-zA-Z]" maxlength="56" minlength="4">
+                
+                </div>
+                <div class="input-control input-2">
+                    <label for="state">State/Province</label>
+                    <input type="text" name="state" id="state" required placeholder="State/province">
+                
+                </div>
+                <div class="input-control input-2">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" required placeholder="Password" >
+                
+                <label for="confirm">Confirm Password</label>
+                    <input type="password" name="confirm" required placeholder="Confirm Password" >
+                
+                </div>
+    
+               
+                <div class="btn">
+                    <button id="submit">SUBMIT</button>
+    
+    
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>made with ❤️ | pulse ©️2022</footer>
+    </div>
+</body>
+
+</html>
